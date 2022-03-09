@@ -13,6 +13,8 @@
 		8929B0C027D2B756004891F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8929B0BE27D2B756004891F8 /* Main.storyboard */; };
 		8929B0C227D2B758004891F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8929B0C127D2B758004891F8 /* Assets.xcassets */; };
 		8929B0C527D2B758004891F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8929B0C327D2B758004891F8 /* LaunchScreen.storyboard */; };
+		8929B0CD27D2B77C004891F8 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 8929B0CC27D2B77C004891F8 /* README.md */; };
+		8929B0CF27D2B7C6004891F8 /* alarm_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8929B0CE27D2B7C6004891F8 /* alarm_sound.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		8929B0C127D2B758004891F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8929B0C427D2B758004891F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8929B0C627D2B758004891F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8929B0CC27D2B77C004891F8 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		8929B0CE27D2B7C6004891F8 /* alarm_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = alarm_sound.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,12 +60,14 @@
 		8929B0B727D2B756004891F8 /* EggTimer */ = {
 			isa = PBXGroup;
 			children = (
+				8929B0CC27D2B77C004891F8 /* README.md */,
 				8929B0B827D2B756004891F8 /* AppDelegate.swift */,
 				8929B0BA27D2B756004891F8 /* SceneDelegate.swift */,
 				8929B0BC27D2B756004891F8 /* ViewController.swift */,
 				8929B0BE27D2B756004891F8 /* Main.storyboard */,
 				8929B0C127D2B758004891F8 /* Assets.xcassets */,
 				8929B0C327D2B758004891F8 /* LaunchScreen.storyboard */,
+				8929B0CE27D2B7C6004891F8 /* alarm_sound.mp3 */,
 				8929B0C627D2B758004891F8 /* Info.plist */,
 			);
 			path = EggTimer;
@@ -126,7 +132,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				8929B0C527D2B758004891F8 /* LaunchScreen.storyboard in Resources */,
+				8929B0CF27D2B7C6004891F8 /* alarm_sound.mp3 in Resources */,
 				8929B0C227D2B758004891F8 /* Assets.xcassets in Resources */,
+				8929B0CD27D2B77C004891F8 /* README.md in Resources */,
 				8929B0C027D2B756004891F8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
